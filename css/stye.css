@@ -1,0 +1,38 @@
+:root{
+    margin:0;
+    padding:0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: gray;
+}
+
+nav > button{
+    margin-right: 30px;
+    font-size: 1.2rem;
+}
+figure{
+    width: 50%;
+}
+figure > img{
+    width: 30%;
+    height: 30%;
+}
+footer{
+    background-color: gray;
+    text-align: center;
+    color: white;
+}
+.container{
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
+}
+img{
+    width: 75%;
+    height: 75%;
+}
